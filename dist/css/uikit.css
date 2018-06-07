@@ -46,7 +46,7 @@ a:hover {
  */
 a,
 .uk-link {
-  color: #1e87f0;
+  color: #27476e;
   text-decoration: none;
   cursor: pointer;
 }
@@ -91,7 +91,7 @@ strong {
   color: #f0506e;
   white-space: nowrap;
   padding: 2px 6px;
-  background: #f8f8f8;
+  background: #ede3c4;
 }
 /*
  * Emphasize
@@ -497,7 +497,7 @@ a.uk-link-heading:not(:hover),
 }
 a.uk-link-heading:hover,
 .uk-link-heading a:hover {
-  color: #1e87f0;
+  color: #27476e;
   text-decoration: none;
 }
 /* Reset
@@ -740,7 +740,7 @@ a.uk-link-reset:hover,
   border-bottom: 1px solid #e5e5e5;
 }
 .uk-list-striped > li:nth-of-type(odd) {
-  background: #f8f8f8;
+  background: #ede3c4;
 }
 .uk-list-striped > li:nth-child(n+2) {
   margin-top: 0;
@@ -905,7 +905,7 @@ a.uk-link-reset:hover,
  */
 .uk-table-striped > tr:nth-of-type(odd),
 .uk-table-striped tbody tr:nth-of-type(odd) {
-  background: #f8f8f8;
+  background: #ede3c4;
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #e5e5e5;
 }
@@ -1109,7 +1109,7 @@ button.uk-icon:not(:disabled) {
   width: 36px;
   height: 36px;
   border-radius: 500px;
-  background: #f8f8f8;
+  background: #ede3c4;
   color: #999;
   vertical-align: middle;
   /* 1 */
@@ -1431,13 +1431,13 @@ button.uk-icon:not(:disabled) {
   outline: none;
   background-color: #fff;
   color: #666;
-  border-color: #1e87f0;
+  border-color: #27476e;
 }
 /* Disabled */
 .uk-input:disabled,
 .uk-select:disabled,
 .uk-textarea:disabled {
-  background-color: #f8f8f8;
+  background-color: #ede3c4;
   color: #999;
   border-color: #e5e5e5;
 }
@@ -1609,7 +1609,7 @@ select.uk-form-width-xsmall {
 .uk-radio:focus,
 .uk-checkbox:focus {
   outline: none;
-  border-color: #1e87f0;
+  border-color: #27476e;
 }
 /*
  * Checked
@@ -1617,7 +1617,7 @@ select.uk-form-width-xsmall {
 .uk-radio:checked,
 .uk-checkbox:checked,
 .uk-checkbox:indeterminate {
-  background-color: #1e87f0;
+  background-color: #27476e;
   border-color: transparent;
 }
 /* Focus */
@@ -1643,7 +1643,7 @@ select.uk-form-width-xsmall {
  */
 .uk-radio:disabled,
 .uk-checkbox:disabled {
-  background-color: #f8f8f8;
+  background-color: #ede3c4;
   border-color: #e5e5e5;
 }
 .uk-radio:disabled:checked {
@@ -1909,7 +1909,7 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-button-primary {
-  background-color: #1e87f0;
+  background-color: #27476e;
   color: #fff;
   border: 1px solid transparent;
 }
@@ -1929,7 +1929,7 @@ select.uk-form-width-xsmall {
  * Secondary
  */
 .uk-button-secondary {
-  background-color: #222;
+  background-color: #009688;
   color: #fff;
   border: 1px solid transparent;
 }
@@ -2041,7 +2041,7 @@ select.uk-form-width-xsmall {
   line-height: 1.5;
   background: none;
   /* 2 */
-  color: #1e87f0;
+  color: #27476e;
 }
 /* Hover + Focus */
 .uk-button-link:hover,
@@ -2183,19 +2183,19 @@ select.uk-form-width-xsmall {
  * Muted
  */
 .uk-section-muted {
-  background: #f8f8f8;
+  background: #ede3c4;
 }
 /*
  * Primary
  */
 .uk-section-primary {
-  background: #1e87f0;
+  background: #27476e;
 }
 /*
  * Secondary
  */
 .uk-section-secondary {
-  background: #222;
+  background: #009688;
 }
 /* Overlap modifier
  ========================================================================== */
@@ -2679,19 +2679,19 @@ select.uk-form-width-xsmall {
  * Muted
  */
 .uk-tile-muted {
-  background: #f8f8f8;
+  background: #ede3c4;
 }
 /*
  * Primary
  */
 .uk-tile-primary {
-  background: #1e87f0;
+  background: #27476e;
 }
 /*
  * Secondary
  */
 .uk-tile-secondary {
-  background: #222;
+  background: #009688;
 }
 /* ========================================================================
    Component: Card
@@ -2809,7 +2809,7 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-card-primary {
-  background: #1e87f0;
+  background: #27476e;
   color: #fff;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
 }
@@ -2817,14 +2817,14 @@ select.uk-form-width-xsmall {
   color: #fff;
 }
 .uk-card-primary.uk-card-hover:hover {
-  background-color: #1e87f0;
+  background-color: #27476e;
   box-shadow: 0 14px 25px rgba(0, 0, 0, 0.16);
 }
 /*
  * Secondary
  */
 .uk-card-secondary {
-  background: #222;
+  background: #009688;
   color: #fff;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
 }
@@ -2832,7 +2832,7 @@ select.uk-form-width-xsmall {
   color: #fff;
 }
 .uk-card-secondary.uk-card-hover:hover {
-  background-color: #222;
+  background-color: #009688;
   box-shadow: 0 14px 25px rgba(0, 0, 0, 0.16);
 }
 /* Size modifier
@@ -3036,7 +3036,7 @@ select.uk-form-width-xsmall {
  */
 .uk-marker {
   padding: 5px;
-  background: #222;
+  background: #009688;
   color: #fff;
   border-radius: 500px;
 }
@@ -3053,7 +3053,7 @@ select.uk-form-width-xsmall {
   position: relative;
   margin-bottom: 20px;
   padding: 15px 29px 15px 15px;
-  background: #f8f8f8;
+  background: #ede3c4;
   color: #666;
 }
 /* Add margin if adjacent element */
@@ -3097,7 +3097,7 @@ select.uk-form-width-xsmall {
  */
 .uk-alert-primary {
   background: #d8eafc;
-  color: #1e87f0;
+  color: #27476e;
 }
 /*
  * Success
@@ -3154,7 +3154,7 @@ select.uk-form-width-xsmall {
   border-radius: 500px;
   vertical-align: middle;
   /* 1 */
-  background: #1e87f0;
+  background: #27476e;
   color: #fff;
   font-size: 0.875rem;
   /* 2 */
@@ -3177,7 +3177,7 @@ select.uk-form-width-xsmall {
 .uk-label {
   display: inline-block;
   padding: 0 10px;
-  background: #1e87f0;
+  background: #27476e;
   line-height: 1.5;
   font-size: 0.875rem;
   color: #fff;
@@ -3369,7 +3369,7 @@ select.uk-form-width-xsmall {
  ========================================================================== */
 .uk-comment-primary {
   padding: 30px;
-  background-color: #f8f8f8;
+  background-color: #ede3c4;
 }
 /* ========================================================================
    Component: Search
@@ -3777,7 +3777,7 @@ ul.uk-nav-sub {
 /* Container
  ========================================================================== */
 .uk-navbar-container:not(.uk-navbar-transparent) {
-  background: #f8f8f8;
+  background: #ede3c4;
 }
 /*
  * Remove pseudo elements created by micro clearfix as precaution (if Container component is used)
@@ -4218,17 +4218,17 @@ ul.uk-nav-sub {
 /* Hover + Focus */
 .uk-subnav-pill > * > a:hover,
 .uk-subnav-pill > * > a:focus {
-  background-color: #f8f8f8;
+  background-color: #ede3c4;
   color: #666;
 }
 /* OnClick */
 .uk-subnav-pill > * > a:active {
-  background-color: #f8f8f8;
+  background-color: #ede3c4;
   color: #666;
 }
 /* Active */
 .uk-subnav-pill > .uk-active > a {
-  background-color: #1e87f0;
+  background-color: #27476e;
   color: #fff;
 }
 /* Disabled
@@ -4412,7 +4412,7 @@ ul.uk-nav-sub {
 /* Active */
 .uk-tab > .uk-active > a {
   color: #333;
-  border-color: #1e87f0;
+  border-color: #27476e;
 }
 /* Disabled */
 .uk-tab > .uk-disabled > a {
@@ -5413,7 +5413,7 @@ ul.uk-nav-sub {
   box-sizing: border-box;
   width: 270px;
   padding: 20px 20px;
-  background: #222;
+  background: #009688;
   /* 3 */
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
@@ -5761,7 +5761,7 @@ ul.uk-nav-sub {
   position: relative;
   margin-bottom: 10px;
   padding: 15px;
-  background: #f8f8f8;
+  background: #ede3c4;
   color: #666;
   font-size: 1.25rem;
   line-height: 1.4;
@@ -5785,7 +5785,7 @@ ul.uk-nav-sub {
  * Primary
  */
 .uk-notification-message-primary {
-  color: #1e87f0;
+  color: #27476e;
 }
 /*
  * Success
@@ -5891,7 +5891,7 @@ ul.uk-nav-sub {
   /* 4 */
   border: 0;
   /* 5 */
-  background-color: #f8f8f8;
+  background-color: #ede3c4;
   /* 6 */
   margin-bottom: 20px;
   height: 15px;
@@ -5913,7 +5913,7 @@ ul.uk-nav-sub {
  * 2. Remove progress bar for indeterminate state in Firefox
  */
 .uk-progress::-webkit-progress-bar {
-  background-color: #f8f8f8;
+  background-color: #ede3c4;
   border-radius: 500px;
   overflow: hidden;
 }
@@ -5926,14 +5926,14 @@ ul.uk-nav-sub {
  * 1. Remove right border in IE11 and Edge
  */
 .uk-progress::-webkit-progress-value {
-  background-color: #1e87f0;
+  background-color: #27476e;
   transition: width 0.6s ease;
 }
 .uk-progress::-moz-progress-bar {
-  background-color: #1e87f0;
+  background-color: #27476e;
 }
 .uk-progress::-ms-fill {
-  background-color: #1e87f0;
+  background-color: #27476e;
   transition: width 0.6s ease;
   /* 1 */
   border: 0;
@@ -7015,7 +7015,7 @@ ul.uk-nav-sub {
   color: #999 !important;
 }
 .uk-text-primary {
-  color: #1e87f0 !important;
+  color: #27476e !important;
 }
 .uk-text-success {
   color: #32d296 !important;
@@ -7041,11 +7041,11 @@ ul.uk-nav-sub {
   /* 2 */
   display: inline-block;
   /* 3 */
-  color: #1e87f0 !important;
+  color: #27476e !important;
 }
 @supports (-webkit-background-clip: text) {
   .uk-text-background {
-    background-color: #1e87f0;
+    background-color: #27476e;
   }
 }
 /* Alignment modifiers
@@ -7341,13 +7341,13 @@ iframe.uk-cover {
   background-color: #fff;
 }
 .uk-background-muted {
-  background-color: #f8f8f8;
+  background-color: #ede3c4;
 }
 .uk-background-primary {
-  background-color: #1e87f0;
+  background-color: #27476e;
 }
 .uk-background-secondary {
-  background-color: #222;
+  background-color: #009688;
 }
 /* Size
  ========================================================================== */
@@ -10503,7 +10503,7 @@ iframe.uk-cover {
 .uk-card-secondary > :not([class*='uk-card-media']) .uk-marker,
 .uk-overlay-primary .uk-marker,
 .uk-offcanvas-bar .uk-marker {
-  background: #f8f8f8;
+  background: #ede3c4;
   color: #666;
 }
 .uk-light .uk-marker:hover,
